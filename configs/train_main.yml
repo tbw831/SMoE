@@ -1,0 +1,15 @@
+seed: 3407
+total_iter: 300000
+backbone_lr: 0.0001
+semantic_lr: 0.0002
+eta_min: 0.000001
+ema_decay: 0.999
+pearson_weight: 1.0
+route_supervision_weight: 0.05
+workers: 4
+save_every: 10000
+stages:
+  - {iterations: 60000, crop: 128, batch_per_gpu: 4}
+  - {iterations: 60000, crop: 160, batch_per_gpu: 3}
+  - {iterations: 80000, crop: 192, batch_per_gpu: 2}
+  - {iterations: 100000, crop: 224, batch_per_gpu: 1}

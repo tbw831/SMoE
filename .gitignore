@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+third_party/
+data/
+runs/
+predictions/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+.DS_Store

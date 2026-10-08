@@ -1,0 +1,9 @@
+{
+  "model": "SMoE",
+  "metrics": {"psnr": 26.357682509736648, "ssim": 0.8051195158041833, "lpips_alex": 0.23446629357834656, "n": 300},
+  "restoration_parameters": {"active_top1": 17640692, "stored": 19198364},
+  "checkpoint": {"filename": "net_g_10000.pth", "branch": "params_ema", "sha256": "3dc7daa206223897f9ad18ca75f2f3f298c458d7ec7333e1f555477cdcd54112", "included": false},
+  "conditioner": {"model": "daclip_ViT-B-32", "filename": "epoch_40.pt", "sha256": "6dcfe84d1d68518c0fae90ca55950d701e93b60ac4741ca881f21f30cc6dc7ac", "included": false},
+  "inference": {"precision": "float32", "tf32": false, "tile_size": 320, "overlap": 64, "blend": "cosine-feather", "tta": false, "attention_tlc": false},
+  "test_manifest_sha256": "ce97eeb4ae7efbba4b4fb7ba32f0170bee8a3f9cb4036a9f09117d31e3a30186"
+}

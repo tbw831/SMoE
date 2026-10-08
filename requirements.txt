@@ -1,0 +1,9 @@
+torch>=2.4
+torchvision>=0.19
+einops>=0.8
+numpy>=1.26
+Pillow>=10
+opencv-python>=4.9
+lpips==0.1.4
+PyYAML>=6
+pytorch-msssim>=1.0
